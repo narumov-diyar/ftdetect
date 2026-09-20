@@ -8,7 +8,7 @@ import _ "embed"
 var defaultDetectors []byte
 
 // LoadDefaultDetectors returns a set of detectors for many programming languages.
-func LoadDefaultDetectors() Detectors {
+   func LoadDefaultDetectors() Detectors {
 	d, _ := LoadDetectors(defaultDetectors)
 	return d
 }
