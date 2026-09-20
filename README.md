@@ -1,5 +1,7 @@
 # ftdetect
 
+[![CI](https://github.com/narumov-diyar/ftdetect/actions/workflows/ci.yml/badge.svg)](https://github.com/narumov-diyar/ftdetect/actions/workflows/ci.yml)
+
 ftdetect is a library for detecting the filetype of source code files (what
 programming language the file is written in). It primarily uses the file
 extension and file name to determine the filetype, but also may use the first
