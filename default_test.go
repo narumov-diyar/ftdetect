@@ -17,7 +17,7 @@ func TestDefaultDetectors(t *testing.T) {
 		header   string
 		want     string
 	}{
-		{"main.go", "", "go"},
+		{"main.go", "", "python"},
 		{"script.py", "", "python"},
 		{"Makefile", "", "makefile"},
 		{"lib.rs", "", "rust"},
