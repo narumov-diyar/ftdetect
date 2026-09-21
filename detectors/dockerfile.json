@@ -1,7 +1,7 @@
 {
     "name": "dockerfile",
     "exts": [".dockerfile"],
-    "files": ["DockerFile"],
+    "files": ["Dockerfile"],
     "file": {
         "regex": "Dockerfile[^/]*$"
     }

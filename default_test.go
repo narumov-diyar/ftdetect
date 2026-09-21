@@ -22,6 +22,7 @@ func TestDefaultDetectors(t *testing.T) {
 		{"Makefile", "", "makefile"},
 		{"lib.rs", "", "rust"},
 		{"noext", "#!/bin/bash", "shell"},
+		{"Dockerfile", "", "dockerfile"},
 	}
 
 	for _, tt := range tests {
