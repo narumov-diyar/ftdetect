@@ -1,0 +1,11 @@
+version: "2"
+
+linters:
+  enable:
+    - errcheck      # an error is returned but never handled
+    - govet         # suspicious constructs
+    - ineffassign   # a value is assigned and never used
+    - unused        # code that nothing calls
+  exclusions:
+    presets:
+      - std-error-handling   # do not require checking errors from Close() and similar
